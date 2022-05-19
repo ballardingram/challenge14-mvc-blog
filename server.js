@@ -1,0 +1,11 @@
+// EXTERNAL PACKAGES REQUIRED FOR FUNCTIONALITY
+// DOCUMENTATION > BCRYPT (https://www.npmjs.com/package/bcrypt)
+// DOCUMENTATION > DOTENV (https://www.npmjs.com/package/dotenv)
+// DOCUMENTATION > EXPRESS (https://expressjs.com/en/starter/installing.html)
+// DOCUMENTATION > EXPRESS HANDLEBARS (https://www.npmjs.com/package/express-handlebars)
+// DOCUMENTATION > EXPRESS SESSION (https://www.npmjs.com/package/express-session)
+// DOCUMENTATION > HANDLEBARS (https://handlebarsjs.com/installation/)
+// DOCUMENTATION > MYSQL2 (https://www.npmjs.com/package/mysql2)
+// DOCUMENTATION > SEQUELIZE (https://www.npmjs.com/package/sequelize)
+// DOCUMENTATION > CONNECT SESSION SEQUELIZE (https://www.npmjs.com/package/connect-session-sequelize)
+// DOCUMENTATION > JEST (https://jestjs.io/docs/getting-started)
