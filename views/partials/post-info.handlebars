@@ -1,8 +1,10 @@
 {{! POST LAYOUT - PARTIAL }}
 <article class="post">
     <div class="title">
-        <a href="{{post_url}}" target="_blank">{{title}}</a>
+        <h2>{{title}}</h2>
+        <h3>{{user.username}}</h3>
         <span>({{format_url post_url}})</span>
+        <a href="{{post_url}}" target="_blank">{{title}}</a>
     </div>
 
     <div class="meta">

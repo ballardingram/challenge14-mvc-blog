@@ -8,8 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tech Blog</title>
         <link rel="stylesheet" href="/public/assets/css/style.css">
-        <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        {{! CSS ONLY }}
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </head>
 
     {{! BODY OF BLOG AND BUTTONS }}
@@ -21,10 +21,10 @@
                 </h1>
                 <nav>
                     {{#if loggedIn}}
-                    <a href="/dashboard">dashboard</a>
-                    <button id="logout" class="btn-no-style">logout</button>
-                    {{ else }}
-                    <a href="/login">login</a>
+                    <a href="/dashboard">Dashboard</a>
+                    <button id="logout" class="btn-no-style">Logout</button>
+                    {{else}}
+                    <a href="/login">Login</a>
                     {{/if}}
                 </nav>
             </header>
