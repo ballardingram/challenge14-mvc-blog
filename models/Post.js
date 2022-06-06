@@ -1,8 +1,9 @@
+// FUNCTIONALITY > EXTERNAL PACKAGES
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 // MODEL > POST - FIELD AND COLUMNS
-postMessage.init(
+Post.init(
     {
         id: {
             type: DataTypes.INTEGER,
