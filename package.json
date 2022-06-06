@@ -1,4 +1,14 @@
 {
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "Challenge 14 MVC Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "seeds": "node seeds/index.js"
+  },
+  "author": "Ballard Ingram",
+  "license": "",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.3",
