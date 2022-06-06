@@ -23,7 +23,7 @@ const PORT = process.env.PORT || 3001;
 
 // REVISIT - ADD IN SECRET LATER
 const sess = {
-    secret: '',
+    secret: 'Secret Tech Blog',
     cookie: {},
     resave: false,
     saveUninitialized: true,
@@ -43,7 +43,7 @@ app.set('view engine', 'handlebars');
 // APP > USE
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static(path.join(_dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(require('./controllers'));
 
 // PORT > LISTEN
