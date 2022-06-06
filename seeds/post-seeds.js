@@ -1,6 +1,7 @@
 // FUNCTIONALITY > REQUIRED MODEL IMPORT
 const { Post } = require('../models');
 
+// SEEDS > POSTS
 const postdata = [
     {
         title: 'What is alpha?',

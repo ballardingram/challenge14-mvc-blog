@@ -2,7 +2,7 @@
 const sequelize = require('../config/connection');
 const { User, Post } = require('../models');
 
-// USER SEEDS
+// SEEDS > USERS
 const userdata = [
     {
         username: 'alpha1',
