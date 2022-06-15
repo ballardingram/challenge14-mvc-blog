@@ -22,7 +22,7 @@ async function commentFormHandler(event) {
         if (response.ok) {
             document.location.reload();
         } else {
-            alert(response.status.Text);
+            alert(response.statusText);
         }
     }
 }
