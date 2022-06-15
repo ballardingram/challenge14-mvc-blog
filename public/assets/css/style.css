@@ -40,6 +40,7 @@ button:hover {
 .post-list {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 textarea, input {
@@ -81,6 +82,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
+    font-size: 2rem;
 }
 
 header h1 {
@@ -121,6 +123,9 @@ main {
 .post {
     margin-bottom: 2%;
     line-height: 150%;
+    background-color: whitesmoke;
+    border: solid #333;
+    padding: 5px;
 }
 
 .post .title span {
@@ -144,13 +149,12 @@ main {
 }
 
 .comment:nth-child(odd) {
-    background-color: #fff5eb;
+    background-color: lightgrey;
 }
 
 .comment .meta {
     font-size: 90%;
     margin-bottom: .5%;
-    opacity: .6;
 }
 
 .new-post-form input {
