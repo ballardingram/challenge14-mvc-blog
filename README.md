@@ -26,16 +26,20 @@ I get the concept of a handlebar and the MVC. I just have trouble figuring out w
 ## Project Media
 
 ### Dashboard
-The image below displays the dashboard prior to LOGIN.
-
+The image below displays the dashboard prior to LOGIN.  
+![dashboard](https://github.com/ballardingram/challenge14-mvc-blog/blob/main/public/assets/images/readme01.png)
+  
 ### Login and Sign Up Page
-The image below displays the options to login or sign up.
-
+The image below displays the options to login or sign up.  
+![login-signup](https://github.com/ballardingram/challenge14-mvc-blog/blob/main/public/assets/images/readme02.png)
+  
 ### Login Dashboard
-The image below displays the option to create a post once logged in.
-
+The image below displays the option to create a post once logged in.  
+![logindashboard](https://github.com/ballardingram/challenge14-mvc-blog/blob/main/public/assets/images/readme03.png)
+  
 ### Single Post
-The image below displays the option to create a single post and leave comments.
-
+The image below displays the option to create a single post and leave comments.  
+![singlepost](https://github.com/ballardingram/challenge14-mvc-blog/blob/main/public/assets/images/readme04.png)
+  
 ## Heroku Deployment
 Click on the link below to access the deployed Heroku site:  
