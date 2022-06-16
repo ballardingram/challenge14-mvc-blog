@@ -28,7 +28,7 @@ router.get('/', (req, res) => {
 });
 
 // ROUTES > POST AND COMMENT BY SINGLE ID
-router.get("/:id", (req, res) => {
+router.get('/:id', (req, res) => {
     Comment.findOne({
         where: {
             id: req.params.id,

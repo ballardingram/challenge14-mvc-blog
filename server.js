@@ -19,8 +19,8 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const helpers = require('./utils/helpers');
 
 // APP AND PORT
-const app = express();
 const PORT = process.env.PORT || 3001;
+const app = express();
 
 // REVISIT - ADD IN SECRET LATER
 const sess = {
@@ -48,5 +48,7 @@ app.set('view engine', 'handlebars');
 
 // PORT > LISTEN
 sequelize.sync({ force: false}).then(() => {
-    app.listen(PORT, () => console.log('Now listening.'));
+    app.listen(PORT, () => {
+        console.log(`Site server now on port ${PORT}!`);
+    });
 });
