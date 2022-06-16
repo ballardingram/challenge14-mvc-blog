@@ -43,3 +43,7 @@ The image below displays the option to create a single post and leave comments.
   
 ## Heroku Deployment
 Click on the link below to access the deployed Heroku site:  
+https://ballard-techblog.herokuapp.com/
+
+**NOTE**  
+The code is correct and the heroku logs are referencing something that isn't in my code, so I have zero clue what the error is.
