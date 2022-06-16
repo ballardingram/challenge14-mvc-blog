@@ -11,7 +11,8 @@ router.get('/', (req, res) => {
             'id',
             'post_text',
             'title',
-            'created_at'
+            'created_at',
+            [sequelize.literal('(SELECT * FROM post')]
         ],
         include: [
             {
@@ -141,7 +142,7 @@ router.put('/:id', withAuth, (req, res) => {
 });
 
 // ROUTES > EDIT POST
-router.get('/edit/:id', withAuth, (Req, res) => {
+router.get('/edit/:id', withAuth, (req, res) => {
     Post.findOne({
         where: {
             id: req.params.id
