@@ -1,13 +1,11 @@
 {{! COMMENT HANDLEBAR PARTIAL }}
-<div class="comments">
-    {{#each this}}
-    <section class="comment">
-        <div class="meta">
-            {{user.username}} on {{format_date created_at}}
-        </div>
-        <div class="text">
-            {{comment_text}}
-        </div>
-    </section>
-    {{/each}}
+<div class = "comment">
+   {{#each this}}
+   <section class = "comment">
+      {{comment_text}}
+      <div class = "meta">
+         Comment By: {{user.username}} on {{format_date created_at}}
+      </div>
+   </section>
+   {{/each}}
 </div>

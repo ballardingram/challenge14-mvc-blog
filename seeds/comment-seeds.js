@@ -3,7 +3,7 @@ const { Comment } = require('../models');
 
 
 // SEEDS > COMMENTS
-const commentdata = [
+const commentData = [
     {
         comment_text: 'Alpha is the best!',
         user_id: 10,
@@ -56,5 +56,5 @@ const commentdata = [
     }
 ];
 
-const seedComments = () => Comment.bulkCreate(commentdata);
+const seedComments = () => Comment.bulkCreate(commentData);
 module.exports = seedComments;
